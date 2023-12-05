@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 408.96">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-size: 199.95px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #f05625;
+        font-family: RocGrotesk-Black, 'Roc Grotesk';
+        font-weight: 800;
+      }
+
+      .cls-5 {
+        font-size: 200px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y=".56" width="1920" height="408.4"/>
+    </clipPath>
+  </defs>
+  <g id="R" class="cls-4">
+    <text class="cls-5" transform="translate(445.52 223.58) rotate(-11.02)"><tspan x="0" y="0">R</tspan></text>
+  </g>
+  <g id="Group_113" data-name="Group 113">
+    <g class="cls-1">
+      <g id="Group_112" data-name="Group 112">
+        <g id="E" class="cls-4">
+          <text class="cls-5" transform="translate(623.2 190.32) rotate(-6.4)"><tspan x="0" y="0">E</tspan></text>
+        </g>
+        <g id="C" class="cls-4">
+          <text class="cls-5" transform="translate(773.31 173.44) rotate(-2.58)"><tspan x="0" y="0">C</tspan></text>
+        </g>
+        <g id="I" class="cls-4">
+          <text class="cls-5" transform="translate(962.13 166.14) rotate(.32)"><tspan x="0" y="0">I</tspan></text>
+        </g>
+        <g id="P" class="cls-4">
+          <text class="cls-5" transform="translate(1053.49 165.61) rotate(2.76)"><tspan x="0" y="0">P</tspan></text>
+        </g>
+        <g id="E-2" class="cls-4">
+          <text class="cls-5" transform="translate(1225.44 174.47) rotate(7.03)"><tspan x="0" y="0">E</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="S" class="cls-4">
+    <text class="cls-3" transform="translate(1376.22 192.49) rotate(12.77)"><tspan x="0" y="0">S</tspan></text>
+  </g>
+</svg>
