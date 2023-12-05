@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Yeast & Leavening</title>
+    <style>
+        @import url(faq.css);
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/bnw2ltw.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+</head>
+
+<header>   
+    <nav>
+        <a href="index.html"><img id="logo" src="../images/logo.png" width="12%"></a>
+        <!-- Menu will go here -->
+        <div id="navitabs">
+            <p><a href="breadbasics.html">Bread Basics</a></p>
+            <p><a href="recipes.html">Recipes</a></p>
+            <p class="faq"><a href="faq.html">FAQ</a></p>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section id="title">
+        <div class="body" id="top">
+        <h2>Have questions?</h2>
+        <p><b>We got you covered!</b></p>
+        <p>Here, you can find some commonly asked questions about the breadmaking process. 
+            Random question? Need to troubleshoot?
+            Ask away!</p>
+        </div>
+        <div class="bodyimg">
+            <img src="../images/bb images/bbhome.png">
+        </div>
+    </section>
+    <section class="text">
+        <img src="../images/text/faq.png">
+    </section>
+    <section id="faq">
+        <button class="accordion">How long does my bread stay good?</button>
+            <div class="panel" id="faq1">
+            <img src="../images/crumbs.png">
+            <p>It can definitely vary by the type of bread you make, and also how you store it!<br>
+                Since it doesn’t have the same preserving ingredients as store-bought bread, it’s essential to 
+                store it properly, especially on the cut side. Our favorite options are wrapping your bread in plastic 
+                wrap or aluminum foil. Then, put the wrapped bread in a resealable plastic bag for extra protection!<br>
+                Overall, your bread will likely be best within the first 3-4 days, but it can still be eaten afterwards or 
+                even reused as breadcrumbs!</p>
+            </div>
+        <button class="accordion">What are the different types of flour?</button>
+            <div class="panel" id="faq2">
+                <img src="../images/flours.png">
+              <p>Many people wonder why they have to go out and specifically buy bread flour for their bread instead of just 
+                using the all-purpose flour they already have. Well, there’s a big difference between the types of flours!<br><br>
+                <b>Bread flour:</b><br>
+                Bread flour has a 12-15% protein content. The high gluten content produces an even structure and a chewy 
+                texture inside the bread. <br><br>
+                <b>All-purpose flour:</b><br>
+                This flour has a 10-13% protein content. It is very versatile and works for all kinds of baked goods,
+                since its protein content is right in the middle.<br><br>
+                <b>Cake flour:</b><br>
+                The third most common flour is cake flour, with only 6-8% protein content. It has a higher starch content, and so it 
+                absorbs more liquid than the other flours. The result is softer and more tender, perfect for cakes!
+            </p>
+            </div>
+    </section>
+    <section id="formsec">
+        <div id="formlabel">
+            <h3>Any other questions?</h3>
+            <p>Send us your questions and we’ll get back to you as soon as possible!</p>
+        </div>
+        <div>
+            <form>
+                <ul>
+                    <li id="email">
+                        <input type="email" placeholder="Email">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Subject">
+                    </li>
+                    <li>
+                        <textarea placeholder="Type your question here!" rows="10" cols="40"></textarea>
+                    </li>
+                    <li>
+                        <p><input type="submit" id="submit"></p>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+</body>
+
+<footer>
+    <p>Copyright 2023, Zoe Collins</p>
+    <img src="../images/logooutline.svg">
+</footer>
